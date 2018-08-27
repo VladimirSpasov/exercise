@@ -13,7 +13,7 @@ struct ApiResponse: Codable {
 struct Datum: Codable {
     let id, date, description: String
     let categoryID: Int
-    let currency: Currency
+    let currency: String
     let amount: Amount
     let product: Product
     
@@ -26,16 +26,12 @@ struct Datum: Codable {
 
 struct Amount: Codable {
     let value: Double
-    let currencyISO: Currency
+    let currencyISO: String
     
     enum CodingKeys: String, CodingKey {
         case value
         case currencyISO = "currency_iso"
     }
-}
-
-enum Currency: String, Codable {
-    case gbp = "GBP"
 }
 
 struct Product: Codable {

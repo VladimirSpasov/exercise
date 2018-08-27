@@ -36,7 +36,7 @@ class APIClient {
             }
             
             
-            completion(response.result.value?.data)
+            completion(value)
         }
     }
     

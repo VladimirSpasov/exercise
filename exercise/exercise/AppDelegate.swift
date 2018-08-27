@@ -17,13 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        APIClient.shared.getData { data in
-            guard data != nil else{
-                print("Error while fetching data")
-                return
-            }
-            print(data)
-        }
         return true
     }
 
