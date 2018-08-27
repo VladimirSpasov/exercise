@@ -15,6 +15,8 @@
 		63D2059221346E8D005F8439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D2059021346E8D005F8439 /* LaunchScreen.storyboard */; };
 		63D2059D21346E8E005F8439 /* exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D2059C21346E8E005F8439 /* exerciseTests.swift */; };
 		63D205A821346E8E005F8439 /* exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D205A721346E8E005F8439 /* exerciseUITests.swift */; };
+		63D205B621347027005F8439 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D205B521347027005F8439 /* DataModel.swift */; };
+		63D205B821347100005F8439 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D205B721347100005F8439 /* APIClient.swift */; };
 		6884CB3A07AC865451F47C4B /* Pods_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BD62A430D0D71341176753 /* Pods_exercise.framework */; };
 		E551FD9422A7F21052839307 /* Pods_exerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E764E4B8BC7FB4BF1A9E482 /* Pods_exerciseTests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		63D205A321346E8E005F8439 /* exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D205A721346E8E005F8439 /* exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseUITests.swift; sourceTree = "<group>"; };
 		63D205A921346E8E005F8439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D205B521347027005F8439 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		63D205B721347100005F8439 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		6E764E4B8BC7FB4BF1A9E482 /* Pods_exerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE8D03839A2E8C26EFE6CF1 /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
 		C169039C9C5D26EEE24231E0 /* Pods_exerciseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exerciseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +124,8 @@
 				63D2058E21346E8D005F8439 /* Assets.xcassets */,
 				63D2059021346E8D005F8439 /* LaunchScreen.storyboard */,
 				63D2059321346E8E005F8439 /* Info.plist */,
+				63D205B521347027005F8439 /* DataModel.swift */,
+				63D205B721347100005F8439 /* APIClient.swift */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -380,7 +386,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D2058A21346E8D005F8439 /* ViewController.swift in Sources */,
+				63D205B621347027005F8439 /* DataModel.swift in Sources */,
 				63D2058821346E8D005F8439 /* AppDelegate.swift in Sources */,
+				63D205B821347100005F8439 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
